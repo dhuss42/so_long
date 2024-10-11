@@ -24,11 +24,14 @@ The parser in the so_long project is responsible for validating the game map to 
 
 A valid map looks like this:
 
+```
 1111111111111
 1001000000PC1
 1000011111001
 100011E000001
 1111111111111
+```
+
 
 ###
 
