@@ -48,7 +48,7 @@ This section orchestrates the core gameplay loop, including player movement, map
 
 Clone repository
 ```
-git clone 
+git clone https://github.com/dhuss42/so_long.git so_long
 ```
 
 navigate into repository
