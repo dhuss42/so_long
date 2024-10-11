@@ -13,8 +13,8 @@ In this project we had to make a very small 2D game. In this game the player nee
 ## 2. Project Structure
 
 1. [Parsing](#parsing)
-2. Graphical Aspects
-3. Game Loop
+2. [Graphical Aspects](#graphical-aspects)
+3. [Game Loop](#game-loop)
 
 ## 3. Description of individual steps
 
@@ -22,10 +22,10 @@ In this project we had to make a very small 2D game. In this game the player nee
 
 The parser in the so_long project is responsible for validating the game map to ensure it meets all requirements specified by the project guidelines. It verifies that the map file is not empty and checks that the layout forms a valid rectangle, with all rows having an equal length. The parser also confirms that only allowed characters are used within the map, namely walls (1), empty spaces (0), player (P), exit (E), and collectables (C). Additionally, it ensures there are no duplicate exits or players on the map, verifies the presence of at least one collectable, and, using a flood-fill algorithm, confirms that the player can reach all collectables and the exit from the starting position.
 
-A valid map looks like this:
+These are examples of a valid and an invalid map:
 
 ```
-valid map           invalid map
+valid map             invalid map
 
 1111111111111         11111111111
 1001000000PC1         1P000000011
@@ -35,6 +35,8 @@ valid map           invalid map
 ```
 
 
-###
+### Graphical Aspects
+
+### Game Loop
 
 ## 4. How to run
