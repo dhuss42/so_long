@@ -14,8 +14,8 @@ In this project we had to make a very small 2D game. In this game the player nee
 ## 2. Project Structure
 
 1. [Parsing](#parsing)
-2. [Graphical Aspects](#graphical-aspects)
-3. [Game Loop](#game-loop)
+2. [Window Setup and Texture Rendering](#Window-Setup-and-Texture-Rendering)
+3. [Game Logic and Input Handling](#Game-Logic-and-Input-Handling)
 
 ## 3. Description of individual steps
 
@@ -36,8 +36,14 @@ valid map             invalid map
 ```
 
 
-### Graphical Aspects
+### Window Setup and Texture Rendering
 
-### Game Loop
+This part sets up the foundational graphics for the so_long game by initializing the game window and loading the necessary textures. First, it prepares the game display with mlx_init, defining the dimensions based on the map size, while ensuring the window is not maximized. After this, textures for the floor, walls, collectables, exit, and player are loaded with handle_textures. Each texture is sourced from a specific PNG file path. Once the textures are ready, fill_map arranges these graphical elements according to the map data. Each character in the map array is interpreted as a specific game element (walls, floor, exit) and displayed in the window at its respective position using mlx_image_to_window. Finally, the player’s position is rendered last to ensure it appears in the foreground.
+
+### Game Logic and Input Handling
+
+This section orchestrates the core gameplay loop, including player movement, map updates, and live interaction within the game window. The code enables smooth movement by capturing keyboard input to control the player’s position within the grid. Through handle_input, it validates each move, increments the move counter, and manages interactions with game elements like collectables and the exit, closing the game window when all collectables are gathered. The player's moves are displayed on-screen through display_moves, which updates the count in real time at the bottom of the game window. The my_keyhook function manages these inputs and ensures the game view accurately reflects each interaction by invoking update_map and redrawing elements based on the player’s actions.
 
 ## 4. How to run
+
+
