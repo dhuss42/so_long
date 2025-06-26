@@ -53,7 +53,7 @@ git clone https://github.com/dhuss42/so_long.git so_long
 
 navigate into repository
 ```
-cd /path/to/so_long
+cd so_long
 ```
 
 run make
