@@ -1,7 +1,7 @@
 # so_long
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/66a888cd-d479-485a-a9ea-3f7dc0cbda7e" alt="Bildschirmfoto 2025-06-27 um 09 24 54">
+  <img src="https://github.com/user-attachments/assets/857ca568-8211-438e-b798-e5b20f71b0f0" alt="Bildschirmfoto 2025-06-27 um 09 24 54">
 </p>
 
 ## Contents
