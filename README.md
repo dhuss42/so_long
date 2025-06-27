@@ -65,4 +65,9 @@ run make
 make
 ```
 
+run programm
+```
+./so_long maps/valid/valid1.ber 
+```
+
 make sure to have cmake installed or the MLX42 will throw an error
