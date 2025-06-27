@@ -1,7 +1,8 @@
 # so_long
 
-![Bildschirmfoto 2025-06-27 um 09 24 54](https://github.com/user-attachments/assets/66a888cd-d479-485a-a9ea-3f7dc0cbda7e)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/66a888cd-d479-485a-a9ea-3f7dc0cbda7e" alt="Bildschirmfoto 2025-06-27 um 09 24 54">
+</p>
 
 ## Contents
 
